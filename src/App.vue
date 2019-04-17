@@ -1,11 +1,12 @@
 <template>
   <v-app id="inspire">
-    <toolbar/>
+    <!-- <toolbar/>
     <Title/>
     <v-container>
       <Main/>
     </v-container>
-    <Footer/>
+    <Footer/> -->
+    <example/>
   </v-app>
 </template>
 
@@ -13,14 +14,17 @@
 import Toolbar from "./components/Toolbar";
 import Main from "./components/Main";
 import Title from "./components/Title";
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
+import Example from "./components/Example";
+
 export default {
   name: "App",
   components: {
     Main,
     Toolbar,
     Title,
-    Footer
+    Footer,
+    Example
   }
 };
 </script>
